@@ -1,0 +1,71 @@
+name: Build
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  # ===== Situs web (GitHub Pages): otomatis setiap ada perubahan =====
+  pages:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Isi alamat situs otomatis
+        run: |
+          OWNER=$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')
+          REPO="${GITHUB_REPOSITORY#*/}"
+          sed -i "s|remote: '[^']*'|remote: 'https://$OWNER.github.io/$REPO/'|" www/config.js
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Buat daftar file (files.json)
+        run: node tools/build-manifest.mjs
+        env:
+          CI: 'true'
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: www
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
+  # ===== APK Android: hanya saat dijalankan manual (Run workflow) =====
+  apk:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Isi alamat situs otomatis
+        run: |
+          OWNER=$(echo "$GITHUB_REPOSITORY_OWNER" | tr '[:upper:]' '[:lower:]')
+          REPO="${GITHUB_REPOSITORY#*/}"
+          sed -i "s|remote: '[^']*'|remote: 'https://$OWNER.github.io/$REPO/'|" www/config.js
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 17
+      - run: npm install
+      - name: Buat daftar file (files.json)
+        run: node tools/build-manifest.mjs
+        env:
+          CI: 'true'
+      - run: npx cap add android
+      - run: npx cap sync android
+      - name: Bangun APK
+        working-directory: android
+        run: ./gradlew assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: jelajah-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
