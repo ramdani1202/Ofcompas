@@ -1,0 +1,6 @@
+{
+  "appId": "com.jelajah.app",
+  "appName": "Jelajah",
+  "webDir": "www",
+  "server": { "androidScheme": "https" }
+}
