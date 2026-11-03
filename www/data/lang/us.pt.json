@@ -1,0 +1,149 @@
+{
+ "intro": "Os Estados Unidos são formados por 50 estados e um distrito federal. Para o viajante, o estado é a forma mais fácil de escolher um destino: cada um tem personalidade, história e paisagens próprias. Comece por uma região, depois escolha o estado, a cidade e os lugares que deseja visitar.",
+ "state": {
+  "ca": {
+   "ringkas": "O estado mais populoso dos Estados Unidos. Conhecido pela costa do Pacífico, por Hollywood, pelo Vale do Silício e por parques nacionais como Yosemite."
+  },
+  "ny": {
+   "ringkas": "Muito mais do que a cidade de Nova York: também abriga as Cataratas do Niágara, as montanhas Adirondack e a região dos lagos Finger Lakes."
+  },
+  "fl": {
+   "ringkas": "Praias, parques temáticos, os pântanos de Everglades e um centro de lançamento de foguetes em uma única península."
+  }
+ },
+ "tujuan": {
+  "san-francisco": {
+   "ringkas": "Cidade na ponta de uma península, com uma ponte vermelha icônica, ladeiras íngremes e bondes.",
+   "cerita": "São Francisco cresceu rapidamente depois que a Corrida do Ouro da Califórnia começou, em 1848, quando pessoas do mundo inteiro chegaram à região.\n\nA cidade é conhecida por suas ladeiras íngremes, pela neblina de verão e pela diversidade cultural. A melhor forma de explorá-la é a pé, de bonde e de balsa pela baía."
+  },
+  "los-angeles": {
+   "ringkas": "A capital mundial do cinema, com praias, um observatório e um mar de luzes urbanas.",
+   "cerita": "Los Angeles é sinônimo de Hollywood e da indústria cinematográfica que se desenvolveu aqui desde o início do século XX.\n\nA cidade é enorme e depende de carros. Planeje por região (Hollywood, Santa Monica, Griffith Park) para não passar o tempo todo no trânsito."
+  },
+  "yosemite": {
+   "ringkas": "Enormes paredões de granito, cachoeiras e florestas de sequoias na Serra Nevada.",
+   "cerita": "Yosemite tornou-se parque nacional em 1890 e é um dos parques nacionais mais famosos do mundo.\n\nO Vale de Yosemite é cercado por paredões de granito moldados por geleiras ao longo de milhares de anos. No sul do parque ficam bosques de sequoias gigantes."
+  },
+  "new-york-city": {
+   "ringkas": "A maior cidade dos Estados Unidos, formada por cinco distritos e centenas de culturas.",
+   "cerita": "A cidade de Nova York é formada por cinco distritos: Manhattan, Brooklyn, Queens, Bronx e Staten Island.\n\nFoi a porta de entrada de milhões de imigrantes por Ellis Island, o que ainda hoje molda sua diversidade cultural e gastronômica. O metrô é a forma mais rápida de se deslocar entre as áreas."
+  },
+  "niagara": {
+   "ringkas": "Três cataratas na fronteira entre os Estados Unidos e o Canadá.",
+   "cerita": "As Cataratas do Niágara são formadas por três quedas: Horseshoe Falls, American Falls e Bridal Veil Falls. O rio Niágara forma a fronteira entre os Estados Unidos e o Canadá.\n\nO lado americano tem o parque estadual mais antigo do país, com passarelas que chegam muito perto da beira das cataratas."
+  },
+  "orlando": {
+   "ringkas": "A capital dos parques temáticos dos Estados Unidos.",
+   "cerita": "Orlando se tornou um destino turístico familiar depois da inauguração do Walt Disney World, em 1971.\n\nAlém dos parques temáticos, a cidade é uma base prática para viagens às praias e ao centro espacial na costa leste."
+  },
+  "space-coast": {
+   "ringkas": "A costa leste da Flórida, de onde decolam foguetes da NASA.",
+   "cerita": "O nome Space Coast refere-se à costa leste da Flórida, ao redor de Cabo Canaveral e da Ilha Merritt, de onde partiram muitas missões espaciais americanas.\n\nA região fica a cerca de uma hora de carro de Orlando."
+  },
+  "miami": {
+   "ringkas": "Cidade praiana no sudeste da Flórida, com arquitetura Art Déco e cultura latino-americana.",
+   "cerita": "Miami e Miami Beach são conhecidas pelas praias, pela vida noturna e pela forte influência caribenha e latino-americana.\n\nEm South Beach há uma fileira de prédios Art Déco em tons pastel que marcam o caráter da região."
+  },
+  "everglades": {
+   "ringkas": "Vasta área alagada no sul da Flórida, lar de jacarés e animais raros.",
+   "cerita": "Everglades é um enorme ecossistema de áreas alagadas subtropicais, na ponta sul da Flórida.\n\nAqui vivem jacarés, diversas aves aquáticas e peixes-boi. Passeios de aerobarco e caminhadas por trilhas de passarelas de madeira são formas populares de ver a vida selvagem."
+  },
+  "key-west": {
+   "ringkas": "Ilha no fim das Florida Keys, com clima descontraído e casas antigas.",
+   "cerita": "Key West fica no extremo das Florida Keys, uma cadeia de pequenas ilhas ligadas por uma rodovia sobre o mar.\n\nO clima é descontraído, com casas de madeira de estilo caribenho, pores do sol muito disputados e um marco do ponto mais ao sul que está sempre cheio de visitantes."
+  }
+ },
+ "objek": {
+  "golden-gate": {
+   "ringkas": "Ponte pênsil de cerca de 2,7 km que liga São Francisco ao condado de Marin.",
+   "cerita": "Inaugurada em maio de 1937, a ponte era uma das mais longas pontes pênseis do mundo na época.\n\nSua cor laranja-avermelhada se chama International Orange e foi escolhida para ser vista em meio à neblina e combinar com o entorno. Os visitantes podem atravessá-la a pé ou de bicicleta.",
+   "tips": "Vá de manhã; a neblina costuma cobrir a ponte perto do meio-dia. Pontos de foto populares: Battery Spencer e Crissy Field."
+  },
+  "alcatraz": {
+   "ringkas": "Pequena ilha na Baía de São Francisco que já foi uma prisão federal.",
+   "cerita": "Antes de virar prisão federal, a ilha serviu como forte e prisão militar.\n\nA penitenciária federal funcionou de 1934 a 1963 e abrigava presos considerados difíceis de controlar. Hoje a ilha é administrada pelo National Park Service e é visitada de balsa.",
+   "tips": "Os ingressos da balsa costumam esgotar. Reserve pelo site oficial com bastante antecedência."
+  },
+  "hollywood-sign": {
+   "ringkas": "Letreiro gigante na encosta das montanhas de Santa Monica, símbolo da indústria cinematográfica americana.",
+   "cerita": "O letreiro foi instalado em 1923 como propaganda de um loteamento e originalmente dizia “Hollywoodland”.\n\nA parte “land” foi removida depois, e o letreiro permaneceu como símbolo de Hollywood. Os visitantes costumam vê-lo de longe ou das trilhas ao redor do Griffith Park.",
+   "tips": "Não é possível chegar perto do letreiro. Veja-o do Observatório Griffith para ter uma bela vista."
+  },
+  "griffith-observatory": {
+   "ringkas": "Observatório na encosta do Monte Hollywood, com vista para a cidade e para o letreiro de Hollywood.",
+   "cerita": "O observatório foi inaugurado em 1935 como um espaço público para aprender sobre astronomia.\n\nOs visitantes podem ver exposições sobre o espaço, assistir a sessões de planetário e apreciar o panorama de Los Angeles ao entardecer.",
+   "tips": "A entrada no prédio é gratuita, mas as sessões de planetário são pagas. Chegue perto do entardecer para ver a cidade acender."
+  },
+  "santa-monica-pier": {
+   "ringkas": "Píer de madeira com um pequeno parque de diversões e uma roda-gigante à beira-mar.",
+   "cerita": "O píer foi inaugurado em 1909 e se tornou um dos ícones do litoral de Los Angeles.\n\nSobre ele há um pequeno parque de diversões, restaurantes e uma roda-gigante movida a energia solar. As praias dos dois lados são ótimas para um passeio tranquilo.",
+   "tips": "O estacionamento perto do píer lota rápido. Chegue cedo ou use transporte público."
+  },
+  "el-capitan": {
+   "ringkas": "Monólito de granito com cerca de 900 metros da base ao topo, favorito dos escaladores.",
+   "cerita": "El Capitan se eleva direto do fundo do Vale de Yosemite e é bem visível da estrada que corta o vale.\n\nO paredão é famoso no mundo da escalada, e os visitantes costumam parar no campo abaixo para observar os escaladores com binóculos.",
+   "tips": "Confira as informações de acesso e reserva no site do National Park Service antes de ir."
+  },
+  "half-dome": {
+   "ringkas": "Domo de granito que se tornou o símbolo de Yosemite.",
+   "cerita": "Half Dome é um domo de granito com um dos lados quase vertical e é uma das paisagens mais reconhecíveis do parque.\n\nMuitos visitantes apenas o admiram do fundo do vale, enquanto trilheiros experientes percorrem um longo caminho até o cume.",
+   "tips": "A trilha até o cume exige licença especial e boa forma física. Consulte as regras mais recentes no site oficial."
+  },
+  "yosemite-falls": {
+   "ringkas": "Uma das cachoeiras mais altas da América do Norte, formada por três níveis.",
+   "cerita": "A cachoeira cai em três partes: Upper Fall, a seção intermediária em degraus e Lower Fall.\n\nA vazão é maior na primavera, quando a neve da montanha derrete, e pode secar no fim do verão.",
+   "tips": "A melhor época para vê-la é a primavera. A trilha até Lower Fall é curta e fácil."
+  },
+  "statue-of-liberty": {
+   "ringkas": "Estátua de bronze presenteada pela França, em uma pequena ilha perto de Manhattan.",
+   "cerita": "A estátua foi inaugurada em 1886 como presente do povo francês aos Estados Unidos.\n\nPara milhões de imigrantes que chegavam por mar, foi a primeira imagem de uma nova terra. Os visitantes chegam até ela de balsa, a partir de Battery Park.",
+   "tips": "O acesso à coroa e ao interior da estátua é bastante controlado. Reserve ingressos oficiais antes de ir."
+  },
+  "central-park": {
+   "ringkas": "Parque urbano de cerca de 340 hectares no coração de Manhattan.",
+   "cerita": "O parque foi projetado por Frederick Law Olmsted e Calvert Vaux, e suas primeiras partes foram abertas ao público em 1858.\n\nDentro há lagos, trilhas, gramados abertos e um zoológico. O parque dá aos moradores um respiro no meio de uma cidade densa.",
+   "tips": "Alugue uma bicicleta ou caminhe de sul a norte para ver como o clima muda."
+  },
+  "empire-state-building": {
+   "ringkas": "Arranha-céu Art Déco de 102 andares em Manhattan.",
+   "cerita": "O edifício foi concluído em 1931 e por muito tempo foi o mais alto do mundo.\n\nSeus mirantes oferecem vistas de todo Manhattan. O próprio saguão é um belo exemplo da arquitetura Art Déco.",
+   "tips": "Compre ingressos on-line para evitar a fila longa. O entardecer permite ver a vista de dia e de noite."
+  },
+  "brooklyn-bridge": {
+   "ringkas": "Ponte pênsil histórica que liga Manhattan ao Brooklyn.",
+   "cerita": "Inaugurada em 1883, é uma das pontes pênseis mais antigas dos Estados Unidos e foi um símbolo da engenharia de sua época.\n\nA passarela para pedestres e ciclistas no nível superior oferece vistas do horizonte de Manhattan.",
+   "tips": "Caminhar do lado do Brooklyn para Manhattan dá as melhores vistas. Vá de manhã para fugir da multidão."
+  },
+  "niagara-falls-state-park": {
+   "ringkas": "O parque estadual mais antigo dos Estados Unidos, bem na beira das cataratas.",
+   "cerita": "O parque foi inaugurado em 1885 para proteger a área das cataratas de um desenvolvimento comercial descontrolado.\n\nDaqui os visitantes veem de perto as American Falls e olham em direção às Horseshoe Falls, no lado canadense.",
+   "tips": "Leve uma capa de chuva leve. Os respingos podem molhar a roupa perto da beira."
+  },
+  "walt-disney-world": {
+   "ringkas": "O maior complexo de parques temáticos da Disney no mundo.",
+   "cerita": "O Walt Disney World foi inaugurado em 1971, com o Magic Kingdom como primeiro parque.\n\nO complexo hoje tem vários parques temáticos, parques aquáticos e hotéis. Planejar ingressos e datas de visita faz grande diferença na experiência.",
+   "tips": "Planeje a visita fora das férias escolares e confira os preços oficiais dos ingressos antes de ir."
+  },
+  "kennedy-space-center": {
+   "ringkas": "Centro de lançamentos da NASA, ponto de partida das missões Apollo e do ônibus espacial.",
+   "cerita": "Daqui a NASA lançou missões tripuladas à Lua e o programa do ônibus espacial.\n\nO complexo de visitantes exibe foguetes, ônibus espaciais aposentados e exposições sobre a exploração espacial.",
+   "tips": "Confira o calendário de lançamentos de foguetes antes de ir. Assistir a um lançamento pode ser uma experiência inesquecível."
+  },
+  "south-beach-art-deco": {
+   "ringkas": "Distrito de prédios Art Déco em tons pastel em Miami Beach.",
+   "cerita": "A fileira de hotéis e apartamentos Art Déco na Ocean Drive foi construída entre as décadas de 1920 e 1940.\n\nA área foi preservada depois como distrito histórico e hoje é uma das principais atrações de Miami Beach.",
+   "tips": "Caminhe pela Ocean Drive à noite, quando as luzes de neon se acendem.",
+   "tahun": "anos 1920–1940"
+  },
+  "everglades-national-park": {
+   "ringkas": "Área alagada subtropical, lar de jacarés, aves aquáticas e peixes-boi.",
+   "cerita": "O parque nacional foi inaugurado em 1947 para proteger um ecossistema de áreas alagadas único, na ponta sul da Flórida.\n\nOs visitantes podem caminhar pelas trilhas de passarelas, pedalar ou fazer passeios de barco para ver a vida selvagem de perto.",
+   "tips": "A estação seca (aproximadamente de dezembro a abril) costuma ser mais agradável e os animais são mais fáceis de ver. Leve repelente."
+  },
+  "southernmost-point": {
+   "ringkas": "Marco de concreto colorido no extremo sul do território continental dos Estados Unidos acessível ao público.",
+   "cerita": "Este grande marco colorido fica em uma esquina de Key West e indica o ponto frequentemente descrito como a ponta sul dos Estados Unidos continentais.\n\nO lugar vive lotado de visitantes querendo uma foto, então é comum haver filas.",
+   "tips": "Chegue bem cedo para evitar a fila da foto."
+  }
+ }
+}

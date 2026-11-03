@@ -1,0 +1,148 @@
+{
+ "intro": "The United States is made up of 50 states and one federal district. For travelers, the state is the easiest way to choose a direction: each one has its own character, history, and landscapes. Start with a region, then pick a state, a city, and the places you want to visit.",
+ "state": {
+  "ca": {
+   "ringkas": "The most populous state in the United States. Known for its Pacific coast, Hollywood, Silicon Valley, and national parks like Yosemite."
+  },
+  "ny": {
+   "ringkas": "More than just New York City: it is also home to Niagara Falls, the Adirondack Mountains, and the Finger Lakes region."
+  },
+  "fl": {
+   "ringkas": "Beaches, theme parks, the Everglades wetlands, and a rocket launch center, all on one peninsula."
+  }
+ },
+ "tujuan": {
+  "san-francisco": {
+   "ringkas": "A city at the tip of a peninsula with an iconic red bridge, steep hills, and cable cars.",
+   "cerita": "San Francisco grew rapidly after the California Gold Rush began in 1848, when newcomers from all over the world arrived in the region.\n\nThe city is known for its steep hills, summer fog, and cultural diversity. The best way to explore it is on foot, by cable car, and by ferry across the bay."
+  },
+  "los-angeles": {
+   "ringkas": "The world's film capital, with beaches, an observatory, and a vast sea of city lights.",
+   "cerita": "Los Angeles is synonymous with Hollywood and the film industry that grew here from the early 20th century.\n\nThe city is huge and built around cars. Plan by area (Hollywood, Santa Monica, Griffith Park) so you don't spend all your time on the road."
+  },
+  "yosemite": {
+   "ringkas": "Giant granite cliffs, waterfalls, and sequoia forests in the Sierra Nevada.",
+   "cerita": "Yosemite became a national park in 1890 and is one of the most famous national parks in the world.\n\nYosemite Valley is ringed by granite cliffs shaped by glaciers over thousands of years. In the south of the park stand groves of giant sequoias."
+  },
+  "new-york-city": {
+   "ringkas": "The largest city in the United States, made up of five boroughs and hundreds of cultures.",
+   "cerita": "New York City is made up of five boroughs: Manhattan, Brooklyn, Queens, the Bronx, and Staten Island.\n\nThe city was the gateway for millions of immigrants through Ellis Island, and that still shapes its cultural diversity and cuisine today. The subway is the fastest way to get between areas."
+  },
+  "niagara": {
+   "ringkas": "Three waterfalls on the border between the United States and Canada.",
+   "cerita": "Niagara Falls consists of three waterfalls: Horseshoe Falls, American Falls, and Bridal Veil Falls. The Niagara River forms the border between the United States and Canada.\n\nThe American side has the oldest state park in the country, with walkways that bring you very close to the edge of the falls."
+  },
+  "orlando": {
+   "ringkas": "The theme park capital of the United States.",
+   "cerita": "Orlando grew into a family travel destination after Walt Disney World opened in 1971.\n\nBeyond the theme parks, the city is a handy base for trips to the beaches and to the space center on the east coast."
+  },
+  "space-coast": {
+   "ringkas": "The east coast of Florida, where NASA rockets lift off.",
+   "cerita": "The name Space Coast refers to Florida's east coast around Cape Canaveral and Merritt Island, where many American space missions have departed.\n\nThe area is about an hour's drive from Orlando."
+  },
+  "miami": {
+   "ringkas": "A beach city in southeast Florida with Art Deco architecture and Latin American culture.",
+   "cerita": "Miami and Miami Beach are known for their beaches, nightlife, and strong Caribbean and Latin American influences.\n\nIn South Beach stands a row of pastel-colored Art Deco buildings that define the character of the area."
+  },
+  "everglades": {
+   "ringkas": "A vast wetland in southern Florida, home to alligators and rare wildlife.",
+   "cerita": "The Everglades is a huge subtropical wetland ecosystem at the southern tip of Florida.\n\nAlligators, many kinds of wading birds, and manatees live here. Airboat rides and walking the boardwalk trails are popular ways to see the wildlife."
+  },
+  "key-west": {
+   "ringkas": "An island at the end of the Florida Keys with a relaxed atmosphere and old houses.",
+   "cerita": "Key West sits at the end of the Florida Keys, a chain of small islands linked by a highway across the sea.\n\nThe mood is relaxed, with Caribbean-style wooden houses, sunsets watched by crowds, and a marker for the southernmost point that is always full of visitors."
+  }
+ },
+ "objek": {
+  "golden-gate": {
+   "ringkas": "A suspension bridge about 2.7 km long connecting San Francisco and Marin County.",
+   "cerita": "Opened in May 1937, the bridge was one of the longest suspension bridges in the world at the time.\n\nIts orange-red color is called International Orange, chosen to stay visible in the fog and blend with the surroundings. Visitors can walk or cycle across it.",
+   "tips": "Go in the morning; fog often covers the bridge by midday. Popular photo spots: Battery Spencer and Crissy Field."
+  },
+  "alcatraz": {
+   "ringkas": "A small island in San Francisco Bay that once served as a federal prison.",
+   "cerita": "Before it became a federal prison, the island served as a fort and a military prison.\n\nThe federal penitentiary operated from 1934 to 1963 and held inmates considered hard to manage. Today the island is run by the National Park Service and is reached by ferry.",
+   "tips": "Ferry tickets often sell out. Book through the official site well in advance."
+  },
+  "hollywood-sign": {
+   "ringkas": "A giant sign on the slope of the Santa Monica Mountains, a symbol of the American film industry.",
+   "cerita": "The sign was first put up in 1923 as an advertisement for a housing development and originally read “Hollywoodland”.\n\nThe “land” part was removed later, and the sign stayed on as a symbol of Hollywood. Visitors usually view it from a distance or from hiking trails around Griffith Park.",
+   "tips": "You can't get close to the sign itself. View it from Griffith Observatory for a great look."
+  },
+  "griffith-observatory": {
+   "ringkas": "An observatory on the slope of Mount Hollywood with views of the city and the Hollywood Sign.",
+   "cerita": "The observatory opened in 1935 as a public place to learn about astronomy.\n\nVisitors can see space exhibits, watch planetarium shows, and enjoy a panorama of Los Angeles at dusk.",
+   "tips": "Entry to the building is free, but planetarium shows cost extra. Come around dusk to watch the city light up."
+  },
+  "santa-monica-pier": {
+   "ringkas": "A wooden pier with a small amusement park and a Ferris wheel by the sea.",
+   "cerita": "The pier opened in 1909 and became one of the icons of the Los Angeles coast.\n\nOn top are a small amusement park, restaurants, and a solar-powered Ferris wheel. The beaches on either side are great for a relaxed stroll.",
+   "tips": "Parking near the pier fills up fast. Come early or use public transport."
+  },
+  "el-capitan": {
+   "ringkas": "A granite monolith about 900 meters tall from base to summit, a favorite of rock climbers.",
+   "cerita": "El Capitan rises straight from the floor of Yosemite Valley and is clearly visible from the road on the valley floor.\n\nThe cliff is famous in the climbing world, and visitors often stop in the meadow below to watch climbers through binoculars.",
+   "tips": "Check access and reservation information on the National Park Service website before you go."
+  },
+  "half-dome": {
+   "ringkas": "A granite dome that has become the symbol of Yosemite.",
+   "cerita": "Half Dome is a granite dome with one nearly vertical face and is one of the most recognizable sights in the park.\n\nMany visitors simply enjoy it from the valley floor, while experienced hikers take a long trail to the summit.",
+   "tips": "Hiking to the summit requires a special permit and good fitness. Check the latest rules on the official website."
+  },
+  "yosemite-falls": {
+   "ringkas": "One of the tallest waterfalls in North America, made up of three tiers.",
+   "cerita": "The waterfall drops in three parts: Upper Fall, the stepped middle section, and Lower Fall.\n\nIts flow is strongest in spring when mountain snow melts, and it can dry up in late summer.",
+   "tips": "The best time to see it is spring. The trail to Lower Fall is short and easy."
+  },
+  "statue-of-liberty": {
+   "ringkas": "A bronze statue gifted by France on a small island near Manhattan.",
+   "cerita": "The statue was dedicated in 1886 as a gift from the people of France to the United States.\n\nFor millions of immigrants arriving by sea, it was the first sight of a new land. Visitors reach it by ferry from Battery Park.",
+   "tips": "Access to the crown and the inside of the statue is tightly controlled. Book official tickets before you go."
+  },
+  "central-park": {
+   "ringkas": "An urban park of about 340 hectares in the middle of Manhattan.",
+   "cerita": "The park was designed by Frederick Law Olmsted and Calvert Vaux, and its first sections opened to the public in 1858.\n\nInside are lakes, footpaths, open lawns, and a zoo. The park gives residents room to breathe in the middle of a dense city.",
+   "tips": "Rent a bike or walk from south to north to see how the mood changes."
+  },
+  "empire-state-building": {
+   "ringkas": "A 102-story Art Deco skyscraper in Manhattan.",
+   "cerita": "The building was completed in 1931 and was the tallest in the world for a long time.\n\nIts observation decks offer views across all of Manhattan. The lobby itself is a fine example of Art Deco architecture.",
+   "tips": "Buy tickets online to skip the long queue. Dusk lets you see both day and night views."
+  },
+  "brooklyn-bridge": {
+   "ringkas": "A historic suspension bridge linking Manhattan and Brooklyn.",
+   "cerita": "Opened in 1883, this is one of the oldest suspension bridges in the United States and was a symbol of engineering in its day.\n\nThe pedestrian and bike path on the upper level gives views of the Manhattan skyline.",
+   "tips": "Walking from the Brooklyn side to Manhattan gives the best views. Go in the morning to avoid crowds."
+  },
+  "niagara-falls-state-park": {
+   "ringkas": "The oldest state park in the United States, right at the edge of the falls.",
+   "cerita": "The park opened in 1885 to protect the falls area from uncontrolled commercial development.\n\nFrom here visitors can see American Falls up close and look out toward Horseshoe Falls on the Canadian side.",
+   "tips": "Bring a light rain jacket. Spray can soak your clothes near the edge."
+  },
+  "walt-disney-world": {
+   "ringkas": "The largest Disney theme park resort in the world.",
+   "cerita": "Walt Disney World opened in 1971 with the Magic Kingdom as its first park.\n\nThe resort now has several theme parks, water parks, and hotels. Planning your tickets and visit dates makes a big difference to the experience.",
+   "tips": "Plan your visit outside school holidays and check official ticket prices before you go."
+  },
+  "kennedy-space-center": {
+   "ringkas": "The NASA launch center that was the departure point for the Apollo missions and the space shuttle.",
+   "cerita": "From here NASA launched crewed missions to the Moon and the space shuttle program.\n\nThe visitor complex shows rockets, retired space shuttles, and exhibits on space exploration.",
+   "tips": "Check the rocket launch schedule before you go. Watching a launch can be an unforgettable experience."
+  },
+  "south-beach-art-deco": {
+   "ringkas": "A district of pastel-colored Art Deco buildings in Miami Beach.",
+   "cerita": "The row of Art Deco hotels and apartments on Ocean Drive was built between the 1920s and 1940s.\n\nThe area was later preserved as a historic district and is now one of Miami Beach's main attractions.",
+   "tips": "Walk along Ocean Drive in the evening, when the neon lights come on."
+  },
+  "everglades-national-park": {
+   "ringkas": "A subtropical wetland that is home to alligators, wading birds, and manatees.",
+   "cerita": "The national park was dedicated in 1947 to protect a unique wetland ecosystem at the southern tip of Florida.\n\nVisitors can walk the boardwalk trails, cycle, or take a boat to see wildlife up close.",
+   "tips": "The dry season (roughly December to April) tends to be more comfortable and wildlife is easier to spot. Bring insect repellent."
+  },
+  "southernmost-point": {
+   "ringkas": "A colorful concrete marker at the southern end of the publicly accessible mainland of the United States.",
+   "cerita": "This large colorful marker stands on a street corner in Key West and marks the point often described as the southern tip of the continental United States.\n\nIt is always crowded with visitors wanting a photo, so lines are common.",
+   "tips": "Arrive early in the morning to avoid the photo line."
+  }
+ }
+}
