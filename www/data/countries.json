@@ -1,10 +1,36 @@
 {
-  "negara": [
-    { "id": "us", "nama": "Amerika Serikat", "ringkas": "Dari pantai Pasifik sampai gedung pencakar langit New York", "file": "data/us.json", "aktif": true },
-    { "id": "id", "nama": "Indonesia", "ringkas": "Segera hadir", "aktif": false },
-    { "id": "jp", "nama": "Jepang", "ringkas": "Segera hadir", "aktif": false },
-    { "id": "fr", "nama": "Prancis", "ringkas": "Segera hadir", "aktif": false },
-    { "id": "it", "nama": "Italia", "ringkas": "Segera hadir", "aktif": false },
-    { "id": "kr", "nama": "Korea Selatan", "ringkas": "Segera hadir", "aktif": false }
-  ]
+ "negara": [
+  {
+   "id": "us",
+   "nama": "Amerika Serikat",
+   "file": "data/us.json",
+   "aktif": true,
+   "lang": "data/lang/us"
+  },
+  {
+   "id": "id",
+   "nama": "Indonesia",
+   "aktif": false
+  },
+  {
+   "id": "jp",
+   "nama": "Jepang",
+   "aktif": false
+  },
+  {
+   "id": "fr",
+   "nama": "Prancis",
+   "aktif": false
+  },
+  {
+   "id": "it",
+   "nama": "Italia",
+   "aktif": false
+  },
+  {
+   "id": "kr",
+   "nama": "Korea Selatan",
+   "aktif": false
+  }
+ ]
 }

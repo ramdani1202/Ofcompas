@@ -1,205 +1,338 @@
 {
-  "negara": "us",
-  "nama": "Amerika Serikat",
-  "intro": "Amerika Serikat terdiri dari 50 state dan satu distrik federal. Bagi turis, state adalah cara paling mudah memilih arah: tiap state punya karakter, sejarah, dan alamnya sendiri. Mulailah dari wilayah, lalu pilih state, kota, dan tempat yang ingin dikunjungi.",
-  "wilayah": [
-    { "id": "northeast", "nama": "Northeast" },
-    { "id": "midwest", "nama": "Midwest" },
-    { "id": "south", "nama": "South" },
-    { "id": "west", "nama": "West" }
-  ],
-  "state": [
-    {
-      "id": "ca", "nama": "California", "wilayah": "west", "julukan": "Golden State", "ibukota": "Sacramento", "foto": "",
-      "ringkas": "State terpadat di Amerika Serikat. Dikenal karena pantai Pasifik, Hollywood, Silicon Valley, dan taman nasional seperti Yosemite."
-    },
-    {
-      "id": "ny", "nama": "New York", "wilayah": "northeast", "julukan": "Empire State", "ibukota": "Albany", "foto": "",
-      "ringkas": "Lebih dari sekadar kota New York: ada juga Air Terjun Niagara, pegunungan Adirondack, dan wilayah danau Finger Lakes."
-    },
-    {
-      "id": "fl", "nama": "Florida", "wilayah": "south", "julukan": "Sunshine State", "ibukota": "Tallahassee", "foto": "",
-      "ringkas": "Pantai, taman hiburan, rawa Everglades, dan pusat peluncuran roket dalam satu semenanjung."
-    }
-  ],
-  "tujuan": [
-    {
-      "id": "san-francisco", "state": "ca", "nama": "San Francisco", "tipe": "Kota", "foto": "",
-      "ringkas": "Kota di ujung semenanjung dengan jembatan merah ikonik, bukit-bukit curam, dan trem kabel.",
-      "cerita": "San Francisco tumbuh pesat setelah Demam Emas California yang dimulai pada 1848, ketika pendatang dari seluruh dunia berdatangan ke wilayah ini.\n\nKota ini dikenal dengan bukit-bukit curam, kabut musim panas, dan keberagaman budayanya. Cara terbaik menjelajah adalah berjalan kaki, naik trem kabel, dan menyeberangi teluk dengan feri."
-    },
-    {
-      "id": "los-angeles", "state": "ca", "nama": "Los Angeles", "tipe": "Kota", "foto": "",
-      "ringkas": "Pusat industri film dunia, dengan pantai, observatorium, dan lampu kota yang luas.",
-      "cerita": "Los Angeles identik dengan Hollywood dan industri film yang berkembang di sini sejak awal abad ke-20.\n\nKota ini sangat luas dan bertumpu pada kendaraan. Rencanakan tujuan per area (Hollywood, Santa Monica, Griffith Park) supaya waktu tidak habis di jalan."
-    },
-    {
-      "id": "yosemite", "state": "ca", "nama": "Yosemite National Park", "tipe": "Taman Nasional", "foto": "",
-      "ringkas": "Tebing granit raksasa, air terjun, dan hutan sequoia di Pegunungan Sierra Nevada.",
-      "cerita": "Yosemite ditetapkan sebagai taman nasional pada 1890 dan menjadi salah satu taman nasional paling terkenal di dunia.\n\nLembah Yosemite dikelilingi tebing granit yang dibentuk oleh gletser selama ribuan tahun. Di bagian selatan taman terdapat hutan sequoia raksasa."
-    },
-    {
-      "id": "new-york-city", "state": "ny", "nama": "New York City", "tipe": "Kota", "foto": "",
-      "ringkas": "Kota terbesar di Amerika Serikat, terdiri dari lima borough dengan ratusan budaya.",
-      "cerita": "New York City terdiri dari lima borough: Manhattan, Brooklyn, Queens, Bronx, dan Staten Island.\n\nKota ini menjadi pintu masuk jutaan imigran lewat Pulau Ellis, dan itu membentuk keberagaman budaya serta kulinernya sampai sekarang. Kereta bawah tanah adalah cara tercepat berpindah antar area."
-    },
-    {
-      "id": "niagara", "state": "ny", "nama": "Niagara Falls", "tipe": "Air Terjun", "foto": "",
-      "ringkas": "Tiga air terjun di perbatasan Amerika Serikat dan Kanada.",
-      "cerita": "Niagara Falls terdiri dari tiga air terjun: Horseshoe Falls, American Falls, dan Bridal Veil Falls. Sungai Niagara menjadi perbatasan antara Amerika Serikat dan Kanada.\n\nSisi Amerika punya taman negara bagian tertua di negara itu, dengan jalur pejalan kaki yang sangat dekat ke tepi air terjun."
-    },
-    {
-      "id": "orlando", "state": "fl", "nama": "Orlando", "tipe": "Kota", "foto": "",
-      "ringkas": "Pusat taman hiburan terbesar di Amerika Serikat.",
-      "cerita": "Orlando berkembang menjadi kota wisata keluarga setelah Walt Disney World dibuka pada 1971.\n\nSelain taman hiburan, kota ini menjadi pangkalan yang praktis untuk perjalanan ke pantai dan ke pusat antariksa di pesisir timur."
-    },
-    {
-      "id": "space-coast", "state": "fl", "nama": "Space Coast", "tipe": "Pesisir", "foto": "",
-      "ringkas": "Pesisir timur Florida tempat roket NASA diluncurkan.",
-      "cerita": "Sebutan Space Coast merujuk pada pesisir timur Florida di sekitar Cape Canaveral dan Merritt Island, tempat banyak misi antariksa Amerika Serikat berangkat.\n\nWilayah ini bisa ditempuh sekitar satu jam berkendara dari Orlando."
-    },
-    {
-      "id": "miami", "state": "fl", "nama": "Miami", "tipe": "Kota", "foto": "",
-      "ringkas": "Kota pantai di tenggara Florida dengan arsitektur Art Deco dan budaya Amerika Latin.",
-      "cerita": "Miami dan Miami Beach dikenal dengan pantai, kehidupan malam, dan pengaruh budaya Karibia dan Amerika Latin yang kuat.\n\nDi South Beach berdiri deretan bangunan Art Deco berwarna pastel yang menjadi ciri khas kawasan ini."
-    },
-    {
-      "id": "everglades", "state": "fl", "nama": "Everglades", "tipe": "Taman Nasional", "foto": "",
-      "ringkas": "Lahan basah luas di selatan Florida, rumah bagi aligator dan satwa langka.",
-      "cerita": "Everglades adalah ekosistem lahan basah subtropis yang sangat luas di ujung selatan Florida.\n\nDi sini hidup aligator, berbagai jenis burung air, dan manatee. Berkeliling dengan perahu udara atau berjalan di jalur papan kayu adalah cara populer untuk melihat satwanya."
-    },
-    {
-      "id": "key-west", "state": "fl", "nama": "Key West", "tipe": "Pulau", "foto": "",
-      "ringkas": "Pulau di ujung rangkaian Florida Keys dengan suasana santai dan rumah-rumah tua.",
-      "cerita": "Key West terletak di ujung Florida Keys, rangkaian pulau kecil yang dihubungkan oleh jalan raya yang melintasi laut.\n\nSuasananya santai, dengan rumah kayu bergaya Karibia, matahari terbenam yang ramai disaksikan, dan penanda titik paling selatan yang selalu dipenuhi pengunjung."
-    }
-  ],
-  "objek": [
-    {
-      "id": "golden-gate", "tujuan": "san-francisco", "state": "ca", "nama": "Golden Gate Bridge", "kategori": "Landmark", "tahun": "1937", "unggulan": true,
-      "lat": 37.8199, "lng": -122.4783, "foto": "",
-      "ringkas": "Jembatan gantung sepanjang sekitar 2,7 km yang menghubungkan San Francisco dengan Marin County.",
-      "cerita": "Dibuka pada Mei 1937, jembatan ini menjadi salah satu jembatan gantung terpanjang di dunia pada masanya.\n\nWarna oranye-merahnya disebut International Orange, dipilih agar terlihat di tengah kabut dan serasi dengan lingkungan sekitar. Pengunjung bisa berjalan kaki atau bersepeda melintasinya.",
-      "tips": "Datang pagi hari; kabut sering menutupi jembatan menjelang siang. Titik foto populer: Battery Spencer dan Crissy Field."
-    },
-    {
-      "id": "alcatraz", "tujuan": "san-francisco", "state": "ca", "nama": "Alcatraz Island", "kategori": "Sejarah", "tahun": "1934", "unggulan": false,
-      "lat": 37.8267, "lng": -122.4230, "foto": "",
-      "ringkas": "Pulau kecil di Teluk San Francisco yang pernah menjadi penjara federal.",
-      "cerita": "Sebelum menjadi penjara federal, pulau ini pernah dipakai sebagai benteng dan penjara militer.\n\nPenjara federalnya beroperasi dari 1934 sampai 1963 dan menampung narapidana yang dianggap sulit dikelola. Kini pulau tersebut dikelola National Park Service dan dikunjungi lewat feri.",
-      "tips": "Tiket feri sering habis. Pesan lewat situs resmi jauh-jauh hari."
-    },
-    {
-      "id": "hollywood-sign", "tujuan": "los-angeles", "state": "ca", "nama": "Hollywood Sign", "kategori": "Landmark", "tahun": "1923", "unggulan": false,
-      "lat": 34.1341, "lng": -118.3215, "foto": "",
-      "ringkas": "Tulisan raksasa di lereng Bukit Santa Monica, simbol industri film Amerika.",
-      "cerita": "Tulisan ini awalnya dipasang pada 1923 sebagai iklan sebuah kawasan perumahan dan semula berbunyi \"Hollywoodland\".\n\nBagian \"land\" dihapus kemudian, dan tulisan itu bertahan menjadi simbol Hollywood. Pengunjung biasanya melihatnya dari kejauhan atau dari jalur pendakian di sekitar Griffith Park.",
-      "tips": "Tulisannya tidak bisa didekati langsung. Lihat dari Griffith Observatory untuk pemandangan yang bagus."
-    },
-    {
-      "id": "griffith-observatory", "tujuan": "los-angeles", "state": "ca", "nama": "Griffith Observatory", "kategori": "Sains", "tahun": "1935", "unggulan": false,
-      "lat": 34.1184, "lng": -118.3004, "foto": "",
-      "ringkas": "Observatorium di lereng Gunung Hollywood dengan pemandangan kota dan tulisan Hollywood.",
-      "cerita": "Observatorium ini dibuka pada 1935 dan menjadi tempat publik untuk mengenal astronomi.\n\nDi sini pengunjung bisa melihat pameran antariksa, menonton pertunjukan planetarium, dan menikmati panorama Los Angeles saat senja.",
-      "tips": "Masuk ke bangunan gratis, tetapi pertunjukan planetarium berbayar. Datang menjelang senja untuk melihat kota menyala."
-    },
-    {
-      "id": "santa-monica-pier", "tujuan": "los-angeles", "state": "ca", "nama": "Santa Monica Pier", "kategori": "Pantai", "tahun": "1909", "unggulan": false,
-      "lat": 34.0094, "lng": -118.4973, "foto": "",
-      "ringkas": "Dermaga kayu dengan taman hiburan kecil dan bianglala di tepi laut.",
-      "cerita": "Dermaga ini dibuka pada 1909 dan menjadi salah satu ikon pesisir Los Angeles.\n\nDi atasnya ada taman hiburan kecil, restoran, dan bianglala bertenaga surya. Pantai di sisi kiri dan kanannya cocok untuk berjalan santai.",
-      "tips": "Parkir di sekitar dermaga cepat penuh. Datang pagi atau gunakan kendaraan umum."
-    },
-    {
-      "id": "el-capitan", "tujuan": "yosemite", "state": "ca", "nama": "El Capitan", "kategori": "Alam", "tahun": "", "unggulan": false,
-      "lat": 37.7340, "lng": -119.6377, "foto": "",
-      "ringkas": "Monolit granit setinggi sekitar 900 meter dari dasar, favorit para pemanjat tebing.",
-      "cerita": "El Capitan menjulang dari dasar Lembah Yosemite dan terlihat jelas dari jalan di dasar lembah.\n\nTebing ini dikenal di dunia panjat tebing, dan pengunjung sering berhenti di padang rumput di bawahnya untuk mengamati para pemanjat dengan teropong.",
-      "tips": "Cek informasi akses dan reservasi di situs resmi National Park Service sebelum berangkat."
-    },
-    {
-      "id": "half-dome", "tujuan": "yosemite", "state": "ca", "nama": "Half Dome", "kategori": "Alam", "tahun": "", "unggulan": true,
-      "lat": 37.7459, "lng": -119.5332, "foto": "",
-      "ringkas": "Kubah granit yang menjadi simbol Yosemite.",
-      "cerita": "Half Dome adalah kubah granit dengan satu sisi yang nyaris vertikal, dan menjadi salah satu pemandangan paling dikenal di taman ini.\n\nBanyak pengunjung hanya menikmatinya dari bawah lembah, sementara pendaki yang berpengalaman menempuh jalur panjang ke puncaknya.",
-      "tips": "Pendakian ke puncak butuh izin khusus dan fisik yang kuat. Periksa aturan terbaru di situs resmi."
-    },
-    {
-      "id": "yosemite-falls", "tujuan": "yosemite", "state": "ca", "nama": "Yosemite Falls", "kategori": "Alam", "tahun": "", "unggulan": false,
-      "lat": 37.7566, "lng": -119.5966, "foto": "",
-      "ringkas": "Salah satu air terjun tertinggi di Amerika Utara, terdiri dari tiga tingkat.",
-      "cerita": "Air terjun ini jatuh dalam tiga bagian: Upper Fall, bagian tengah yang berundak, dan Lower Fall.\n\nDebit airnya paling deras pada musim semi saat salju di pegunungan mencair, dan bisa mengering pada akhir musim panas.",
-      "tips": "Waktu terbaik melihatnya adalah musim semi. Jalur ke Lower Fall pendek dan mudah ditempuh."
-    },
-    {
-      "id": "statue-of-liberty", "tujuan": "new-york-city", "state": "ny", "nama": "Statue of Liberty", "kategori": "Landmark", "tahun": "1886", "unggulan": true,
-      "lat": 40.6892, "lng": -74.0445, "foto": "",
-      "ringkas": "Patung perunggu hadiah dari Prancis di pulau kecil dekat Manhattan.",
-      "cerita": "Patung ini diresmikan pada 1886 sebagai hadiah dari rakyat Prancis kepada Amerika Serikat.\n\nBagi jutaan imigran yang tiba lewat laut, patung ini menjadi pemandangan pertama dari negeri baru. Pengunjung mencapainya dengan feri dari Battery Park.",
-      "tips": "Akses ke mahkota dan ke dalam patung diatur ketat. Pesan tiket resmi sebelum berangkat."
-    },
-    {
-      "id": "central-park", "tujuan": "new-york-city", "state": "ny", "nama": "Central Park", "kategori": "Taman", "tahun": "1858", "unggulan": false,
-      "lat": 40.7829, "lng": -73.9654, "foto": "",
-      "ringkas": "Taman kota seluas sekitar 340 hektare di tengah Manhattan.",
-      "cerita": "Taman ini dirancang oleh Frederick Law Olmsted dan Calvert Vaux, dan bagian pertamanya dibuka untuk umum pada 1858.\n\nDi dalamnya ada danau, jalan setapak, lapangan terbuka, dan kebun binatang. Taman ini menjadi ruang bernapas bagi warga di tengah kota yang padat.",
-      "tips": "Sewa sepeda atau berjalan kaki dari selatan ke utara untuk melihat suasana yang berbeda."
-    },
-    {
-      "id": "empire-state-building", "tujuan": "new-york-city", "state": "ny", "nama": "Empire State Building", "kategori": "Landmark", "tahun": "1931", "unggulan": false,
-      "lat": 40.7484, "lng": -73.9857, "foto": "",
-      "ringkas": "Gedung pencakar langit Art Deco setinggi 102 lantai di Manhattan.",
-      "cerita": "Gedung ini selesai dibangun pada 1931 dan lama menjadi gedung tertinggi di dunia.\n\nDek observasinya menawarkan pemandangan seluruh Manhattan. Lobi gedungnya sendiri adalah contoh arsitektur Art Deco yang layak dilihat.",
-      "tips": "Beli tiket daring supaya tidak antre lama. Senja memberi pemandangan siang dan malam sekaligus."
-    },
-    {
-      "id": "brooklyn-bridge", "tujuan": "new-york-city", "state": "ny", "nama": "Brooklyn Bridge", "kategori": "Sejarah", "tahun": "1883", "unggulan": false,
-      "lat": 40.7061, "lng": -73.9969, "foto": "",
-      "ringkas": "Jembatan gantung bersejarah yang menghubungkan Manhattan dan Brooklyn.",
-      "cerita": "Dibuka pada 1883, jembatan ini adalah salah satu jembatan gantung tertua di Amerika Serikat dan menjadi simbol rekayasa pada zamannya.\n\nJalur pejalan kaki dan sepeda di bagian atas memberi pemandangan garis langit Manhattan.",
-      "tips": "Berjalan dari sisi Brooklyn ke Manhattan memberi pemandangan terbaik. Datang pagi agar tidak ramai."
-    },
-    {
-      "id": "niagara-falls-state-park", "tujuan": "niagara", "state": "ny", "nama": "Niagara Falls State Park", "kategori": "Alam", "tahun": "1885", "unggulan": true,
-      "lat": 43.0828, "lng": -79.0742, "foto": "",
-      "ringkas": "Taman negara bagian tertua di Amerika Serikat, tepat di tepi air terjun.",
-      "cerita": "Taman ini dibuka pada 1885 untuk melindungi kawasan air terjun dari pembangunan komersial yang tidak terkendali.\n\nDari sini pengunjung bisa melihat American Falls dari dekat dan memandang Horseshoe Falls di sisi Kanada.",
-      "tips": "Bawa jas hujan tipis. Percikan air bisa membasahi pakaian di dekat tepi."
-    },
-    {
-      "id": "walt-disney-world", "tujuan": "orlando", "state": "fl", "nama": "Walt Disney World", "kategori": "Taman Hiburan", "tahun": "1971", "unggulan": true,
-      "lat": 28.3852, "lng": -81.5639, "foto": "",
-      "ringkas": "Kompleks taman hiburan Disney terbesar di dunia.",
-      "cerita": "Walt Disney World dibuka pada 1971 dengan Magic Kingdom sebagai taman pertamanya.\n\nKawasan ini kini terdiri dari beberapa taman tema, taman air, dan hotel. Perencanaan tiket dan waktu kunjungan sangat berpengaruh pada pengalaman.",
-      "tips": "Rencanakan kunjungan di luar musim libur sekolah dan periksa harga tiket resmi sebelum berangkat."
-    },
-    {
-      "id": "kennedy-space-center", "tujuan": "space-coast", "state": "fl", "nama": "Kennedy Space Center", "kategori": "Sains", "tahun": "", "unggulan": false,
-      "lat": 28.5729, "lng": -80.6490, "foto": "",
-      "ringkas": "Pusat peluncuran NASA yang menjadi titik berangkat misi Apollo dan pesawat ulang-alik.",
-      "cerita": "Dari tempat ini NASA meluncurkan misi berawak ke Bulan dan program pesawat ulang-alik.\n\nKompleks pengunjungnya menampilkan roket, pesawat ulang-alik yang sudah pensiun, dan pameran tentang penjelajahan antariksa.",
-      "tips": "Cek jadwal peluncuran roket sebelum berangkat. Menyaksikan peluncuran bisa jadi pengalaman yang tak terlupakan."
-    },
-    {
-      "id": "south-beach-art-deco", "tujuan": "miami", "state": "fl", "nama": "South Beach Art Deco", "kategori": "Arsitektur", "tahun": "1920-an–1940-an", "unggulan": false,
-      "lat": 25.7826, "lng": -80.1341, "foto": "",
-      "ringkas": "Kawasan bangunan Art Deco berwarna pastel di Miami Beach.",
-      "cerita": "Deretan hotel dan apartemen bergaya Art Deco di Ocean Drive dibangun pada era 1920-an sampai 1940-an.\n\nKawasan ini kemudian dilestarikan sebagai distrik bersejarah, dan kini menjadi salah satu daya tarik utama Miami Beach.",
-      "tips": "Berjalan kaki di Ocean Drive saat sore dan malam, ketika lampu neon menyala."
-    },
-    {
-      "id": "everglades-national-park", "tujuan": "everglades", "state": "fl", "nama": "Everglades National Park", "kategori": "Alam", "tahun": "1947", "unggulan": true,
-      "lat": 25.2866, "lng": -80.8987, "foto": "",
-      "ringkas": "Lahan basah subtropis yang menjadi rumah bagi aligator, burung air, dan manatee.",
-      "cerita": "Taman nasional ini diresmikan pada 1947 untuk melindungi ekosistem lahan basah yang unik di ujung selatan Florida.\n\nPengunjung bisa berjalan di jalur papan kayu, bersepeda, atau naik perahu untuk melihat satwa liar dari dekat.",
-      "tips": "Musim kemarau (sekitar Desember sampai April) cenderung lebih nyaman dan satwa lebih mudah terlihat. Bawa obat nyamuk."
-    },
-    {
-      "id": "southernmost-point", "tujuan": "key-west", "state": "fl", "nama": "Southernmost Point", "kategori": "Landmark", "tahun": "", "unggulan": false,
-      "lat": 24.5465, "lng": -81.7973, "foto": "",
-      "ringkas": "Penanda beton berwarna di ujung selatan daratan yang dapat diakses publik di Amerika Serikat.",
-      "cerita": "Penanda besar berwarna ini berdiri di pojok jalan di Key West dan menandai titik paling selatan yang sering disebut sebagai ujung daratan kontinental Amerika Serikat.\n\nTempat ini selalu ramai oleh pengunjung yang ingin berfoto, jadi antrean sering terjadi.",
-      "tips": "Datang pagi-pagi untuk menghindari antrean foto."
-    }
-  ]
+ "negara": "us",
+ "nama": "Amerika Serikat",
+ "wilayah": [
+  {
+   "id": "northeast",
+   "nama": "Northeast"
+  },
+  {
+   "id": "midwest",
+   "nama": "Midwest"
+  },
+  {
+   "id": "south",
+   "nama": "South"
+  },
+  {
+   "id": "west",
+   "nama": "West"
+  }
+ ],
+ "state": [
+  {
+   "id": "ca",
+   "nama": "California",
+   "wilayah": "west",
+   "julukan": "Golden State",
+   "ibukota": "Sacramento",
+   "foto": ""
+  },
+  {
+   "id": "ny",
+   "nama": "New York",
+   "wilayah": "northeast",
+   "julukan": "Empire State",
+   "ibukota": "Albany",
+   "foto": ""
+  },
+  {
+   "id": "fl",
+   "nama": "Florida",
+   "wilayah": "south",
+   "julukan": "Sunshine State",
+   "ibukota": "Tallahassee",
+   "foto": ""
+  }
+ ],
+ "tujuan": [
+  {
+   "id": "san-francisco",
+   "state": "ca",
+   "nama": "San Francisco",
+   "tipe": "Kota",
+   "foto": ""
+  },
+  {
+   "id": "los-angeles",
+   "state": "ca",
+   "nama": "Los Angeles",
+   "tipe": "Kota",
+   "foto": ""
+  },
+  {
+   "id": "yosemite",
+   "state": "ca",
+   "nama": "Yosemite National Park",
+   "tipe": "Taman Nasional",
+   "foto": ""
+  },
+  {
+   "id": "new-york-city",
+   "state": "ny",
+   "nama": "New York City",
+   "tipe": "Kota",
+   "foto": ""
+  },
+  {
+   "id": "niagara",
+   "state": "ny",
+   "nama": "Niagara Falls",
+   "tipe": "Air Terjun",
+   "foto": ""
+  },
+  {
+   "id": "orlando",
+   "state": "fl",
+   "nama": "Orlando",
+   "tipe": "Kota",
+   "foto": ""
+  },
+  {
+   "id": "space-coast",
+   "state": "fl",
+   "nama": "Space Coast",
+   "tipe": "Pesisir",
+   "foto": ""
+  },
+  {
+   "id": "miami",
+   "state": "fl",
+   "nama": "Miami",
+   "tipe": "Kota",
+   "foto": ""
+  },
+  {
+   "id": "everglades",
+   "state": "fl",
+   "nama": "Everglades",
+   "tipe": "Taman Nasional",
+   "foto": ""
+  },
+  {
+   "id": "key-west",
+   "state": "fl",
+   "nama": "Key West",
+   "tipe": "Pulau",
+   "foto": ""
+  }
+ ],
+ "objek": [
+  {
+   "id": "golden-gate",
+   "tujuan": "san-francisco",
+   "state": "ca",
+   "nama": "Golden Gate Bridge",
+   "kategori": "Landmark",
+   "tahun": "1937",
+   "unggulan": true,
+   "lat": 37.8199,
+   "lng": -122.4783,
+   "foto": ""
+  },
+  {
+   "id": "alcatraz",
+   "tujuan": "san-francisco",
+   "state": "ca",
+   "nama": "Alcatraz Island",
+   "kategori": "Sejarah",
+   "tahun": "1934",
+   "unggulan": false,
+   "lat": 37.8267,
+   "lng": -122.423,
+   "foto": ""
+  },
+  {
+   "id": "hollywood-sign",
+   "tujuan": "los-angeles",
+   "state": "ca",
+   "nama": "Hollywood Sign",
+   "kategori": "Landmark",
+   "tahun": "1923",
+   "unggulan": false,
+   "lat": 34.1341,
+   "lng": -118.3215,
+   "foto": ""
+  },
+  {
+   "id": "griffith-observatory",
+   "tujuan": "los-angeles",
+   "state": "ca",
+   "nama": "Griffith Observatory",
+   "kategori": "Sains",
+   "tahun": "1935",
+   "unggulan": false,
+   "lat": 34.1184,
+   "lng": -118.3004,
+   "foto": ""
+  },
+  {
+   "id": "santa-monica-pier",
+   "tujuan": "los-angeles",
+   "state": "ca",
+   "nama": "Santa Monica Pier",
+   "kategori": "Pantai",
+   "tahun": "1909",
+   "unggulan": false,
+   "lat": 34.0094,
+   "lng": -118.4973,
+   "foto": ""
+  },
+  {
+   "id": "el-capitan",
+   "tujuan": "yosemite",
+   "state": "ca",
+   "nama": "El Capitan",
+   "kategori": "Alam",
+   "tahun": "",
+   "unggulan": false,
+   "lat": 37.734,
+   "lng": -119.6377,
+   "foto": ""
+  },
+  {
+   "id": "half-dome",
+   "tujuan": "yosemite",
+   "state": "ca",
+   "nama": "Half Dome",
+   "kategori": "Alam",
+   "tahun": "",
+   "unggulan": true,
+   "lat": 37.7459,
+   "lng": -119.5332,
+   "foto": ""
+  },
+  {
+   "id": "yosemite-falls",
+   "tujuan": "yosemite",
+   "state": "ca",
+   "nama": "Yosemite Falls",
+   "kategori": "Alam",
+   "tahun": "",
+   "unggulan": false,
+   "lat": 37.7566,
+   "lng": -119.5966,
+   "foto": ""
+  },
+  {
+   "id": "statue-of-liberty",
+   "tujuan": "new-york-city",
+   "state": "ny",
+   "nama": "Statue of Liberty",
+   "kategori": "Landmark",
+   "tahun": "1886",
+   "unggulan": true,
+   "lat": 40.6892,
+   "lng": -74.0445,
+   "foto": ""
+  },
+  {
+   "id": "central-park",
+   "tujuan": "new-york-city",
+   "state": "ny",
+   "nama": "Central Park",
+   "kategori": "Taman",
+   "tahun": "1858",
+   "unggulan": false,
+   "lat": 40.7829,
+   "lng": -73.9654,
+   "foto": ""
+  },
+  {
+   "id": "empire-state-building",
+   "tujuan": "new-york-city",
+   "state": "ny",
+   "nama": "Empire State Building",
+   "kategori": "Landmark",
+   "tahun": "1931",
+   "unggulan": false,
+   "lat": 40.7484,
+   "lng": -73.9857,
+   "foto": ""
+  },
+  {
+   "id": "brooklyn-bridge",
+   "tujuan": "new-york-city",
+   "state": "ny",
+   "nama": "Brooklyn Bridge",
+   "kategori": "Sejarah",
+   "tahun": "1883",
+   "unggulan": false,
+   "lat": 40.7061,
+   "lng": -73.9969,
+   "foto": ""
+  },
+  {
+   "id": "niagara-falls-state-park",
+   "tujuan": "niagara",
+   "state": "ny",
+   "nama": "Niagara Falls State Park",
+   "kategori": "Alam",
+   "tahun": "1885",
+   "unggulan": true,
+   "lat": 43.0828,
+   "lng": -79.0742,
+   "foto": ""
+  },
+  {
+   "id": "walt-disney-world",
+   "tujuan": "orlando",
+   "state": "fl",
+   "nama": "Walt Disney World",
+   "kategori": "Taman Hiburan",
+   "tahun": "1971",
+   "unggulan": true,
+   "lat": 28.3852,
+   "lng": -81.5639,
+   "foto": ""
+  },
+  {
+   "id": "kennedy-space-center",
+   "tujuan": "space-coast",
+   "state": "fl",
+   "nama": "Kennedy Space Center",
+   "kategori": "Sains",
+   "tahun": "",
+   "unggulan": false,
+   "lat": 28.5729,
+   "lng": -80.649,
+   "foto": ""
+  },
+  {
+   "id": "south-beach-art-deco",
+   "tujuan": "miami",
+   "state": "fl",
+   "nama": "South Beach Art Deco",
+   "kategori": "Arsitektur",
+   "tahun": "1920s–1940s",
+   "unggulan": false,
+   "lat": 25.7826,
+   "lng": -80.1341,
+   "foto": ""
+  },
+  {
+   "id": "everglades-national-park",
+   "tujuan": "everglades",
+   "state": "fl",
+   "nama": "Everglades National Park",
+   "kategori": "Alam",
+   "tahun": "1947",
+   "unggulan": true,
+   "lat": 25.2866,
+   "lng": -80.8987,
+   "foto": ""
+  },
+  {
+   "id": "southernmost-point",
+   "tujuan": "key-west",
+   "state": "fl",
+   "nama": "Southernmost Point",
+   "kategori": "Landmark",
+   "tahun": "",
+   "unggulan": false,
+   "lat": 24.5465,
+   "lng": -81.7973,
+   "foto": ""
+  }
+ ]
 }
