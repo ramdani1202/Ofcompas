@@ -1,6 +1,6 @@
 {
-  "appId": "com.jelajah.app",
-  "appName": "Jelajah",
+  "appId": "com.ofcompas.app",
+  "appName": "Ofcompas",
   "webDir": "www",
   "server": { "androidScheme": "https" }
 }
