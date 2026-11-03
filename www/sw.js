@@ -8,9 +8,10 @@ const BUILD = 'dev';
 const SHELL = 'shell-' + BUILD;
 const KEEP = [SHELL, 'content', 'runtime'];
 const SHELL_FILES = [
-  'index.html', 'app.js', 'style.css', 'config.js',
+  'index.html', 'app.js', 'i18n.js', 'style.css', 'config.js',
   'manifest.webmanifest', 'icon.svg', 'icon-192.png', 'icon-512.png',
-  'data/countries.json', 'data/us.json'
+  'data/countries.json', 'data/us.json',
+  'data/lang/us.en.json', 'data/lang/us.id.json', 'data/lang/us.pt.json', 'data/lang/us.es.json'
 ];
 const scope = self.registration.scope;
 
