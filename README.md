@@ -1,4 +1,4 @@
-# Jelajah
+# Ofcompas
 
 Panduan sejarah dan budaya daerah untuk turis. Satu kode, dua jalur:
 
