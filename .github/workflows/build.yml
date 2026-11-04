@@ -61,6 +61,8 @@ jobs:
         env:
           CI: 'true'
       - run: npx cap add android
+      - name: Buat ikon aplikasi
+        run: npx --yes @capacitor/assets@3 generate --android
       - run: npx cap sync android
       - name: Bangun APK
         working-directory: android
